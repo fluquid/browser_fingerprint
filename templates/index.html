@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <title>fingerprint service</title>
+    <body>
+
+    </body>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/fingerprintjs2/dist/fingerprint2.min.js"></script>
+    <script src="node_modules/clientjs/dist/client.min.js"></script>
+	<script src="node_modules/beaverbird/beaverbird.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(function() {
+            fp_main({{browser|tojson}}, {{headers|tojson}});
+		});
+    </script>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "fingerprint_service",
+  "version": "1.0.0",
+  "description": "Run standard finger-printing on different browser setups to see the differences",
+  "main": "phantom_fingerprint.js",
+  "dependencies": {
+    "beaverbird": "^0.5.1",
+    "clientjs": "^0.1.11",
+    "fingerprintjs2": "^1.4.1",
+    "jquery": "^3.1.1",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "proprietary"
+}

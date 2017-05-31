@@ -1,0 +1,8 @@
+sqlite_object
+flask
+json2html
+flask-restful
+flask_cachecontrol
+selenium
+requests
+pandas
