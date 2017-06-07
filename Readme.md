@@ -5,39 +5,13 @@ Run standard finger-printing on different browser setups to see the differences
 
 ## Getting Started
 - uses python3
-- `npm install` for client javascript libs from package.json
+- `npm install`
 - `pip install -r requirements.txt`
 - `./app.py` in new terminal; will start flask web server
 - open `http://localhost:5000/?browser=<browsername_platform>`
     in browsers of your choice
 
-### Splash
-- `./host_splash` in new terminal; will ask for sudo password for docker
-- `./splash_fingerprint.py > splash.html`
-
-### Phantom JS
-- `npm install phantomjs`
-- `./phantom_fingerprint.js > phantom.html`
-
-### Selenium
-- `npm install chromedriver geckodriver`
-- `./selenium_fingerprint.js` (no html output yet)
-
-
-
-## Idea for CDNs
-- find a plausible (popular) target to impersonate
-- maybe chromebook, as it's linux-based?
-
-
 ## TODO
-- inject js code that intercepts/logs/changes requests to
-	canvas, webgl, fonts, navigator, etc.
-- find other monkey patches (i.e. added methods on objects, etc.)
-    - recurse through all (nested) objects attributes
-- remove tell-tell signs of automated solutions (i.e. global vars)
-- make sure information is consistent (navigator.appVersion, UA, platform)
-- capture HTTP request headers
 - audio stack fingerprinting
 - https://github.com/EFForg/panopticlick-python (AGPL)
 - browserspy.dk
